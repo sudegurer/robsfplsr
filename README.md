@@ -6,6 +6,8 @@
  library(devtools)
 
  install_github("sudegurer/robsfplsr")
-# Package Manual
+
  In case of an installation error, please download the "robsfplsr_1.0.tar.gz" file and install the package manually.
 
+# Package Manual
+ See “robsfplsr_1.0.pdf” for the package manual
