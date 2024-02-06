@@ -1,0 +1,18 @@
+Package: robsfplsr
+Type: Package
+Title: Robust Sparse Functional Partial Least Squares Regression
+Version: 1.0
+Depends: R (>= 3.5.0), fda, MASS
+Imports: expm, fda.usc, goffda, pcaPP, cvTools
+LazyLoad: yes
+ByteCompile: TRUE
+Encoding: UTF-8
+Authors@R: c(
+  person("Sude", "Gurer", email="sudegurer4@gmail.com", role=c("aut", "cre", "cph")),
+	person("Han Lin", "Shang", role="aut", comment = c(ORCID = "0000-0003-1769-6430")),
+	person("Abhijit", "Mandal", role="aut", comment = c(ORCID = "0000-0003-3830-6526")),
+	person("Ufuk", "Beyaztas", role="aut", comment = c(ORCID = "0000-0002-5208-4950"))
+	)
+Maintainer: Sude Gurer <sudegurer4@gmail.com>
+Description: Functions for implementing robust methods for sparse functional linear regression.
+License: GPL-3
